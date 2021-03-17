@@ -19,13 +19,17 @@ header {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 50px;
+  .player {
+    display: flex;
+    // justify-content: center;
+  }
 
   p {
     font-size: 2rem;
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .user,
   .play {
@@ -43,7 +47,7 @@ main {
     color: #333;
     font-size: 2rem;
     width: 15rem;
-    padding: 3rem 3rem;
+    padding: 1rem 3rem;
     text-align: center;
     margin: auto;
     margin-top: 3rem;

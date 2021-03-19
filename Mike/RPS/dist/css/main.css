@@ -18,14 +18,20 @@ header h1 {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+main .player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 main p {
   font-size: 2rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 main .user,
@@ -47,7 +53,7 @@ main .computer {
   color: #333;
   font-size: 2rem;
   width: 15rem;
-  padding: 3rem 3rem;
+  padding: 1rem 3rem;
   text-align: center;
   margin: auto;
   margin-top: 3rem;
